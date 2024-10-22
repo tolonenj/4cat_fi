@@ -31,7 +31,6 @@ COPY ./README.md /usr/src/app/README.md
 RUN mkdir /usr/src/app/backend
 RUN mkdir /usr/src/app/webtool
 RUN mkdir /usr/src/app/datasources
-RUN pip3 install wheel
 RUN pip3 install -r requirements.txt
 
 # Install frontend Docker requirements
